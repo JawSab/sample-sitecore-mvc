@@ -132,8 +132,8 @@
     <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="Unicorn, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unicorn.Core.3.0.2\lib\net45\Unicorn.dll</HintPath>
+    <Reference Include="Unicorn, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unicorn.2.0.4\lib\net45\Unicorn.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -149,15 +149,6 @@
   <ItemGroup>
     <None Include="App_Config\Include\Rainbow.config" />
     <None Include="App_Config\Include\Rainbow.TFS.config.example" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.config" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.SerializationFolder.config.example" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
